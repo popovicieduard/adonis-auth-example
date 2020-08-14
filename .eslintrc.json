@@ -1,0 +1,29 @@
+{
+    "extends": [
+        "plugin:adonis/typescriptApp"
+    ],
+    "rules": {
+        "no-unused-vars": [
+            1,
+            {
+                "varsIgnorePattern": "^_"
+            }
+        ],
+        "@typescript-eslint/no-unused-vars": [
+            1,
+            {
+                "varsIgnorePattern": "^_"
+            }
+        ],
+        "@typescript-eslint/explicit-member-accessibility": [
+          0
+        ],
+        "@typescript-eslint/naming-convention": [
+          1,
+          {
+            "selector": "interface",
+            "format": ["PascalCase"]
+          }
+        ]
+    }
+}
